@@ -1,1 +1,971 @@
 [00:00:00.927] Server  LOG      ✓ Ready in 684ms
+[00:09:29.574] Server  LOG      ✓ Compiled in 206ms
+[00:09:40.031] Server  LOG      ✓ Compiled in 87ms
+[00:09:47.020] Server  LOG      ✓ Compiled in 47ms
+[00:09:49.161] Server  LOG      ✓ Compiled in 38ms
+[00:09:58.911] Server  LOG      ✓ Compiled in 35ms
+[00:10:01.608] Server  LOG      ✓ Compiled in 55ms
+[00:10:11.466] Server  LOG      ✓ Compiled in 32ms
+[00:10:12.759] Server  LOG      ✓ Compiled in 28ms
+[00:10:14.588] Server  LOG      ✓ Compiled in 36ms
+[00:10:19.683] Server  LOG      ✓ Compiled in 25ms
+[00:10:24.435] Server  LOG      ✓ Compiled in 30ms
+[00:10:37.653] Server  LOG      ✓ Compiled in 30ms
+[00:11:21.162] Server  LOG      ✓ Compiled in 221ms
+[00:14:15.209] Server  LOG      ✓ Compiled in 215ms
+[00:14:18.232] Server  LOG      ✓ Compiled in 230ms
+[00:14:18.422] Browser LOG     Refreshing page data due to server-side change
+[00:14:18.423] Browser ERROR   ./src/pages/_app.js:5:1
+Parsing ecmascript source code failed
+  3 | import 
+  4 |
+> 5 | export default function App({ Component, pageProps }) {
+    | ^^^^^^
+  6 |   return <Component {...pageProps} />;
+  7 | }
+
+Expected 'from', got 'export'
+[00:14:20.133] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.140] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.142] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.143] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.144] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.172] Server  LOG      ✓ Compiled in 62ms
+[00:14:20.423] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve ''
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import ''
+    | ^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:22.427] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:22.449] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:22.449] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:22.449] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:22.450] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:22.480] Server  LOG      ✓ Compiled in 48ms
+[00:14:23.419] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:28.651] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.652] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.659] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.662] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.664] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.668] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.694] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:30.838] Browser ERROR   uncaughtError: Error: Cannot find module '../styles/Sidebar.css'
+[00:14:31.305] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.306] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.306] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.532] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:43.814] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:43.815] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:43.815] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:43.815] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:43.815] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:43.844] Server  LOG      ✓ Compiled in 23ms
+[00:14:43.949] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:47.060] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:47.070] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:47.071] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/pages/_app.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:14:47.072] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:47.087] Server  LOG      ✓ Compiled in 83ms
+[00:15:03.456] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:03.560] Browser LOG     Refreshing page data due to server-side change
+[00:15:03.687] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:03.690] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:03.692] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:03.694] Server  ERROR    ⨯ ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:03.721] Server  LOG      ✓ Compiled in 310ms
+[00:15:03.962] Browser ERROR   ./src/pages/_app.js:3:1
+Module not found: Can't resolve '../styles/Sidebar.css'
+  1 | import '../styles/Home.css';
+  2 | import '../styles/Header.css';
+> 3 | import '../styles/Sidebar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+  6 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:06.168] Server  LOG      ✓ Compiled in 120ms
+[00:15:06.201] Browser LOG     Refreshing page data due to server-side change
+[00:15:28.191] Server  LOG      ✓ Compiled in 25ms
+[00:15:29.971] Server  LOG      ✓ Compiled in 16ms
+[00:43:17.216] Server  LOG      ✓ Compiled in 224ms
+[00:56:44.581] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:44.731] Browser LOG     Refreshing page data due to server-side change
+[00:56:45.177] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:45.178] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:45.181] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:45.182] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:45.216] Server  LOG      ✓ Compiled in 905ms
+[00:56:45.347] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:05.053] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:05.053] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:05.055] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:05.056] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:05.083] Server  LOG      ✓ Compiled in 62ms
+[00:57:05.193] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:14.712] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:14.712] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:14.850] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:15.741] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:15.741] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:15.875] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.761] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.762] Server  ERROR    ⨯ ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.766] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.767] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.770] Server  ERROR    ⨯ ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.774] Server  ERROR    ⨯ ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.776] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.777] Server  ERROR    ⨯ ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.777] Server  ERROR    ⨯ ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.777] Server  ERROR    ⨯ ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:37.792] Server  LOG      ✓ Compiled in 174ms
+[00:57:37.936] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.936] Browser ERROR   ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:36.924] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:36.929] Browser ERROR   ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:02:02.920] Browser ERROR   ./src/pages/_app.js:2:1
+Module not found: Can't resolve '../styles/Header.css'
+  1 | import '../styles/Home.css';
+> 2 | import '../styles/Header.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export default function App({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:02:02.920] Browser ERROR   ./src/pages/_app.js:1:1
+Module not found: Can't resolve '../styles/Home.css'
+> 1 | import '../styles/Home.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import '../styles/Header.css';
+  3 |
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:02:34.402] Server  LOG      ✓ Compiled in 115ms
+[01:02:34.715] Browser LOG     Refreshing page data due to server-side change
+[01:02:48.402] Server  LOG      ✓ Compiled in 23ms
+[01:02:51.494] Server  LOG      ✓ Compiled in 65ms
+[01:02:51.512] Browser LOG     Refreshing page data due to server-side change
+[01:02:51.540] Browser ERROR   ./src/pages/_app.js:3:1
+Parsing ecmascript source code failed
+  1 | import 
+  2 |
+> 3 | export default function App({ Component, pageProps }) {
+    | ^^^^^^
+  4 |   return <Component {...pageProps} />;
+  5 | }
+
+Expected 'from', got 'export'
+[01:02:53.654] Server  LOG      ✓ Compiled in 89ms
+[01:02:53.664] Browser LOG     Refreshing page data due to server-side change

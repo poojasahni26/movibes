@@ -3,7 +3,7 @@
   color: #fff;
   background-color: #111827;
   min-height: 100vh;
-  font-family: Poppins, sans-serif;
+  font-family: Segoe UI, sans-serif;
   display: flex;
 }
 
@@ -368,4 +368,255 @@
   transform: scale(1.03);
 }
 
-/*# sourceMappingURL=src_styles_Home_css_65f1660e._.single.css.map*/
+/* [project]/src/styles/Header.css [client] (css) */
+.sidebar {
+  color: #fff;
+  opacity: 1;
+  opacity: 1;
+  background-color: #211f1f;
+  border: 1px solid #000;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90px;
+  height: 525px;
+  padding: 40px;
+  display: flex;
+}
+
+.logo-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.search-header {
+  background-color: #111;
+  border-bottom: 1px solid #333;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  color: #fff;
+  align-items: center;
+  gap: .5rem;
+  width: 10px;
+  margin-bottom: 2rem;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav-item {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #3dd2cc66;
+  border: 1px solid #3dd2ccbf;
+  border-radius: 1px;
+  justify-content: center;
+  align-items: center;
+  width: 226px;
+  height: 46px;
+  display: flex;
+  top: 179px;
+}
+
+.nav-icon {
+  color: gray;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.sidebar.logo {
+  opacity: 1;
+  color: #3dd2cc;
+  width: 118px;
+  height: 42px;
+  margin-left: 0;
+  display: flex;
+  top: 56px;
+  left: 54px;
+}
+
+.sidebar nav a {
+  color: #898b8b;
+  opacity: 1;
+  width: 21px;
+  height: 29px;
+  letter-spacing: 10%;
+  margin: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration: none;
+  display: flex;
+  top: 207px;
+  left: 82px;
+}
+
+.sidebar.home-logo {
+  opacity: 1;
+  border: 6px solid #3dd2ccbf;
+  width: 226px;
+  height: 86px;
+  top: 179px;
+}
+
+.sidebar.movies-logo {
+  opacity: 1;
+  width: 112px;
+  height: 30px;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out;
+  top: 312px;
+  left: 42px;
+}
+
+.sidebar .promo {
+  opacity: 1;
+  width: 137px;
+  height: 69px;
+  font: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  letter-spacing: 0%;
+  color: gray;
+  align-items: center;
+  font-size: 10px;
+  line-height: 100%;
+  top: 671px;
+  left: 44px;
+}
+
+.promo-icon {
+  opacity: 1;
+  background: #3dd2cc66;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-left: 30px;
+  display: flex;
+  top: 50px;
+  left: 50px;
+}
+
+.sidebar .promo button {
+  cursor: pointer;
+  opacity: 1;
+  width: 78px;
+  height: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  letter-spacing: 0%;
+  color: #3dd2cc;
+  text-align: center;
+  background: #3dd2cc66;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 100%;
+  top: 799px;
+  left: 74px;
+}
+
+.Home {
+  opacity: 1;
+  color: #3dd2cc;
+  width: 21px;
+  height: 29px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: SemiBold;
+  letter-spacing: 0%;
+  cursor: pointer;
+  align-items: center;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.Movies, .TV-Series {
+  opacity: 1;
+  color: gray;
+  width: 21px;
+  height: 29px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: SemiBold;
+  letter-spacing: 0%;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.Upcoming {
+  opacity: 1;
+  width: 106px;
+  height: 30px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  letter-spacing: 0%;
+  color: gray;
+  font-size: 15px;
+  line-height: 100%;
+  top: 521px;
+  left: 82px;
+}
+
+.Logout {
+  opacity: 1;
+  color: gray;
+  width: 114px;
+  height: 30px;
+  top: 883px;
+  left: 42px;
+}
+
+/* [project]/src/styles/globals.css [client] (css) */
+body {
+  color: #fff;
+  background-color: #191919;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.sidebar {
+  background: #151212;
+  width: 200px;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 10%;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.movie-card img {
+  border-radius: 8px;
+  width: 10%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+.app-layout {
+  grid-template: "sidebar topbar filters"
+                 "sidebar main filters" 1fr
+                 / 200px 1fr 250px;
+  display: grid;
+}
+
+/*# sourceMappingURL=src_styles_2f700d83._.css.map*/

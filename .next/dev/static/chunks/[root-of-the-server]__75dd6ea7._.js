@@ -758,12 +758,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 ;
 ;
 ;
-;
 function App(param) {
     var Component = param.Component, pageProps = param.pageProps;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Component, (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$swc$2f$helpers$2f$esm$2f$_object_spread$2e$js__$5b$client$5d$__$28$ecmascript$29$__["_"])({}, pageProps), void 0, false, {
         fileName: "[project]/src/pages/_app.js",
-        lineNumber: 5,
+        lineNumber: 4,
         columnNumber: 10
     }, this);
 }

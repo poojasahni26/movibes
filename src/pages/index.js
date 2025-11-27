@@ -6,22 +6,18 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faFilm, faTv, faCalendarAlt, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
-
 function Header() {
   return (
     <aside className="sidebar">
      <img src="/image/movibes-logo.png" alt="Movibes Logo" className="logo-image" />
      
       <nav>
-<Link href="/" className="nav-link">
-  <div className="nav-item">
-    <img src="/image/1.png" alt="Home Logo" className="nav-icon" />
-    <div className="Home"> Home </div>
-  </div>
-</Link>
+    <Link href="/" className="nav-link">
+      <div className="nav-item">
+        <img src="/image/1.png" alt="Home Logo" className="nav-icon" />
+        <div className="Home"> Home </div>
+      </div>
+    </Link>
 
 
     
