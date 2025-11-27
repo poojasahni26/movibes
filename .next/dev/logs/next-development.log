@@ -969,3 +969,114 @@ Parsing ecmascript source code failed
 Expected 'from', got 'export'
 [01:02:53.654] Server  LOG      ✓ Compiled in 89ms
 [01:02:53.664] Browser LOG     Refreshing page data due to server-side change
+[01:05:41.621] Server  LOG      ✓ Compiled in 78ms
+[01:06:08.524] Server  LOG      ✓ Compiled in 102ms
+[01:06:13.898] Server  LOG      ✓ Compiled in 106ms
+[01:06:14.928] Browser LOG     Refreshing page data due to server-side change
+[01:06:14.929] Browser ERROR   ./src/pages/_app.js:7:5
+Parsing ecmascript source code failed
+  5 |     
+  6 |   )
+> 7 |     <Component {...pageProps} />;
+    |     ^
+  8 | }
+
+Expression expected
+[01:06:16.694] Server  LOG      ✓ Compiled in 26ms
+[01:06:16.916] Browser ERROR   ./src/pages/_app.js:6:33
+Parsing ecmascript source code failed
+  4 |   return (
+  5 |
+> 6 |     <Component {...pageProps} />;
+    |                                 ^
+  7 |   )
+  8 | }
+
+Expected ',', got ';'
+[01:06:19.916] Browser ERROR   ./src/pages/_app.js:5:33
+Parsing ecmascript source code failed
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return (
+> 5 |     <Component {...pageProps} />;
+    |                                 ^
+  6 |   )
+  7 | }
+
+Expected ',', got ';'
+[01:06:22.932] Server  LOG      ✓ Compiled in 54ms
+[01:06:23.925] Browser LOG     Refreshing page data due to server-side change
+[01:06:26.553] Server  LOG      ✓ Compiled in 112ms
+[01:06:26.921] Browser LOG     Refreshing page data due to server-side change
+[01:06:26.922] Browser ERROR   ./src/pages/_app.js:8:16
+Parsing ecmascript source code failed
+   6 |       
+   7 |     </>
+>  8 |     <Component {...pageProps} />
+     |                ^
+   9 |   )
+  10 | }
+
+Expected ',', got '{'
+[01:06:30.509] Server  LOG      ✓ Compiled in 50ms
+[01:06:30.927] Browser LOG     Refreshing page data due to server-side change
+[01:06:32.231] Server  LOG      ✓ Compiled in 21ms
+[01:06:34.087] Server  LOG      ✓ Compiled in 26ms
+[01:06:36.904] Server  LOG      ✓ Compiled in 100ms
+[01:06:37.932] Browser LOG     Refreshing page data due to server-side change
+[01:06:37.932] Browser ERROR   ./src/pages/_app.js:7:7
+Parsing ecmascript source code failed
+  5 |     < fiv>
+  6 |       <Component {...pageProps} />
+> 7 |     </>
+    |       ^
+  8 |   )
+  9 | }
+
+Expression expected
+[01:06:38.691] Server  LOG      ✓ Compiled in 66ms
+[01:06:38.931] Browser LOG     Refreshing page data due to server-side change
+[01:06:41.426] Server  LOG      ✓ Compiled in 48ms
+[01:07:01.130] Server  LOG      ✓ Compiled in 23ms
+[01:16:57.326] Server  LOG      ✓ Compiled in 109ms
+[01:16:58.178] Server  LOG      ✓ Compiled in 66ms
+[01:17:03.096] Server  LOG      ✓ Compiled in 32ms
+[01:17:23.945] Server  LOG      ✓ Compiled in 101ms
+[01:17:44.897] Server  LOG      ✓ Compiled in 16ms
+[01:20:27.794] Server  LOG      ✓ Compiled in 153ms
+[01:21:55.051] Server  LOG      ✓ Compiled in 38ms
+[01:21:56.491] Server  LOG      ✓ Compiled in 238ms
+[01:22:06.627] Server  LOG      ✓ Compiled in 17ms
+[01:22:21.261] Server  LOG      ✓ Compiled in 14ms
+[01:22:29.345] Server  LOG      ✓ Compiled in 17ms
+[01:22:40.234] Server  LOG      ✓ Compiled in 15ms
+[01:22:43.463] Server  LOG      ✓ Compiled in 17ms
+[01:22:50.833] Server  LOG      ✓ Compiled in 18ms
+[01:22:54.454] Server  LOG      ✓ Compiled in 15ms
+[01:23:00.146] Server  LOG      ✓ Compiled in 45ms
+[01:23:01.997] Server  LOG      ✓ Compiled in 23ms
+[01:23:07.011] Server  LOG      ✓ Compiled in 19ms
+[01:23:23.619] Server  LOG      ✓ Compiled in 16ms
+[01:23:26.475] Server  LOG      ✓ Compiled in 18ms
+[01:23:37.541] Server  LOG      ✓ Compiled in 12ms
+[01:23:43.727] Server  LOG      ✓ Compiled in 21ms
+[01:24:04.806] Server  LOG      ✓ Compiled in 24ms
+[01:24:35.216] Server  LOG      ✓ Compiled in 17ms
+[01:24:36.668] Server  LOG      ✓ Compiled in 21ms
+[01:24:37.947] Server  LOG      ✓ Compiled in 13ms
+[01:24:39.527] Server  LOG      ✓ Compiled in 5ms
+[01:24:41.334] Server  LOG      ✓ Compiled in 17ms
+[01:24:44.008] Server  LOG      ✓ Compiled in 15ms
+[01:24:46.376] Server  LOG      ✓ Compiled in 14ms
+[01:24:47.690] Server  LOG      ✓ Compiled in 5ms
+[01:24:50.668] Server  LOG      ✓ Compiled in 55ms
+[01:24:52.061] Server  LOG      ✓ Compiled in 25ms
+[01:24:54.111] Server  LOG      ✓ Compiled in 14ms
+[01:24:56.121] Server  LOG      ✓ Compiled in 34ms
+[01:24:58.040] Server  LOG      ✓ Compiled in 33ms
+[01:24:59.742] Server  LOG      ✓ Compiled in 39ms
+[01:25:01.875] Server  LOG      ✓ Compiled in 16ms
+[01:25:04.491] Server  LOG      ✓ Compiled in 12ms
+[01:25:06.972] Server  LOG      ✓ Compiled in 13ms
+[01:25:10.100] Server  LOG      ✓ Compiled in 33ms
+[01:25:20.339] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'forEach')
+[01:25:20.342] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'forEach')
