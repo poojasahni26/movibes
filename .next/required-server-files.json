@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\DELL\\Desktop\\movibes\\movibes",
+    "outputFileTracingRoot": "/Users/dany/Projects/personal/Pooja_projects/movibes",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -290,24 +290,24 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "C:\\Users\\DELL\\Desktop\\movibes\\movibes"
+      "root": "/Users/dany/Projects/personal/Pooja_projects/movibes"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "C:\\Users\\DELL\\Desktop\\movibes\\movibes",
+  "appDir": "/Users/dany/Projects/personal/Pooja_projects/movibes",
   "relativeAppDir": "",
   "files": [
-    ".next\\routes-manifest.json",
-    ".next\\server\\pages-manifest.json",
-    ".next\\build-manifest.json",
-    ".next\\prerender-manifest.json",
-    ".next\\server\\functions-config-manifest.json",
-    ".next\\server\\middleware-manifest.json",
-    ".next\\server\\middleware-build-manifest.js",
-    ".next\\BUILD_ID",
-    ".next\\server\\next-font-manifest.js",
-    ".next\\server\\next-font-manifest.json",
-    ".next\\required-server-files.json"
+    ".next/routes-manifest.json",
+    ".next/server/pages-manifest.json",
+    ".next/build-manifest.json",
+    ".next/prerender-manifest.json",
+    ".next/server/functions-config-manifest.json",
+    ".next/server/middleware-manifest.json",
+    ".next/server/middleware-build-manifest.js",
+    ".next/BUILD_ID",
+    ".next/server/next-font-manifest.js",
+    ".next/server/next-font-manifest.json",
+    ".next/required-server-files.json"
   ],
   "ignore": []
 }
