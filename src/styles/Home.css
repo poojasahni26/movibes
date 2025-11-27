@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #111827;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+.filter-group {
+  background-color: #1c1c1c;
+  padding: 16px;
+  border-radius: 8px;
+  width: 192px;
+  color: #fff;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between; /* pushes items to opposite ends */
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-row h3 {
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header-row h5 {
+  margin: 0;
+  cursor: pointer;
+  color: #666666; /* optional styling */
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.filter-group {
+  background-color: #1c1c1c;
+  padding: 16px;
+  border-radius: 8px;
+  width: 150px;
+  color: #fff;
+ margin-bottom: 24px;
+ height: 270px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+.category-item {
+  display: flex;
+  justify-content: flex-end; /* text left, checkbox right */
+  align-items: center;
+  width: 100%;                     /* stretch full width */
+  font-size: 11px;
+  cursor: pointer;
+  padding: 4px;
+  border-bottom: 1px solid #444;         /* subtle border line */
+  border-radius: 1px;
+  background-color: #1c1c1c;      /* optional: match dark theme */
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.category-item input[type="checkbox"] {
+  accent-color: #2ca5a7; /* custom checkbox color */
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; 
+  height: 60px;
+}
+
+.checkbox-item {
+   text-align: left;
+   margin-left: auto;
+  display: flex;
+  justify-content:flex-end; /* pushes text left, checkbox right */
+  align-items: center;
+  width: 100%;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 4px;
+  border-bottom: 1px solid #444;         /* subtle border line */
+  border-radius: 2px;
+  background-color: #1c1c1c;      /* optional: match dark theme */
+  color: #fff;
+   font-family: 'Poppins', sans-serif;
+}
+.checkbox-item input[type="checkbox"] {
+  order: 2; /* ensures checkbox is on the right */
+  accent-color: #2ca5a7; /* change to your desired color */
+  justify-content:flex-end;
+}
+.see-more1 button {
+  background: none;
+  border: none;
+  color: #666666;
+  font-size: 11px;
+  cursor: pointer;
+  display: center;
+  margin-top: 12px;
+  
+}
+
+.see-more button {
+  background: none;
+  border: none;
+  color: #666666;
+  font-size: 11px;
+  cursor: pointer;
+  display: center;
+  margin-top: 146px;
+}
+
+.filter-select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 6px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+.bell-icon {
+  width: 70;
+height: 70;
+top: 42px;
+left: 1297px;
+opacity: 1;
+cursor: pointer;
+}
+
+
+
+.profile-icon {
+ width: 70;
+height: 70;
+top: 42px;
+left: 1391px;
+opacity: 1;
+border-radius: 40px;
+
+}
+
+
+/* styles/Home.css */
+
+.home-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.trending .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.filters {
+  width: 16rem;
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-left: 1px solid #374151;
+}
+
+/* Search Bar */
+.search-bar {
+width: 709;
+height: 65;
+opacity: 1;
+top: 44px;
+left: 263px;
+border-radius: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  background-color: #252626;
+  border: none;
+}
+
+.search-bar input::placeholder {
+  color: #686767;
+  width: 889;
+height: 65;
+opacity: 1;
+top: 44px;
+left: 263px;
+  
+}
+
+/* Hero Section */
+.Hero-icon {
+ width: 800px;
+height: 300;
+top: 149px;
+left: 200px;
+opacity: 1;
+
+}
+
+
+/* Movie Sections */
+.trending {
+  margin-bottom: 2rem;
+}
+
+.trending h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.Upcoming {
+  margin-bottom: 2rem;
+}
+
+.Upcoming h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+ .grid {
+width: 800px; 
+height: 450px; 
+opacity: 1; 
+top: 320px; 
+left: 263px;
+display: grid; 
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+overflow-y: auto; 
+}
+
+.Tv-Series { 
+  margin-top: 2rem;  
+  padding-top: 1rem; 
+}
+.Tv-Series h3 { 
+  font-size: 1.2rem; 
+  color: white; 
+  margin-bottom: 1rem; 
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.grid-item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.grid-item .title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.grid-item .rating {
+  font-size: 0.9rem;
+  color: #f5c518;
+}
+
+
+
+/* Filters & Quiz Promo */
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-group h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.filter-group input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.quiz-promo {
+  margin-top: 1.5rem;
+  background-color: #dc2626;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.quiz-promo button {
+  margin-top: 0.5rem;
+  background-color: white;
+  color: #dc2626;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz-promo button:hover {
+  background-color: #f3f4f6;
+}
+.filters.top-right {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #060606;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .filters.top-right {
+    position: static;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.movie-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}

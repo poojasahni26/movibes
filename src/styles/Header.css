@@ -1,0 +1,245 @@
+.sidebar {
+  
+  background-color: #211f1f;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+   opacity: 1;
+   border: 6px solid #111212bf;
+   width: 90px;
+   height: 525px;
+   opacity: 1;
+   border: 1px solid black;
+   border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  display: flex;
+  
+
+}
+
+  .logo-image {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.search-header {
+  background-color: #111;
+  padding: 10px 20px;
+  border-bottom: 1px solid #333;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  width: 10px;
+}
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  width: 226px;
+height: 46px;
+opacity: 1;
+top: 179px;
+border: 1px solid #3DD2CCBF;  
+background-color:#3DD2CC66 ;
+cursor: pointer;
+  
+
+}
+
+.nav-icon {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.sidebar.logo {
+ width: 118;
+height: 42.000003814697266;
+opacity: 1;
+top: 56px;
+left: 54px;
+color: #3DD2CC;
+display: flex;
+margin-left: 0px;
+
+}
+
+
+.sidebar nav a {
+ 
+  margin: 10px ;
+  color: #898b8b;
+  font-weight: 400;
+  width: 21;
+height: 29;
+opacity: 1;
+top: 207px;
+left: 82px;
+font-family: Poppins;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 10%;
+display: flex;
+text-decoration: none;
+
+
+}
+.sidebar.home-logo {
+ 
+border: 6px solid #3DD2CCBF;
+width: 226;
+height: 86;
+opacity: 1;
+top: 179px;
+
+
+}
+.sidebar.movies-logo {
+  width: 112;
+height: 29.999998092651367;
+opacity: 1;
+top: 312px;
+left: 42px;
+animation-timing-function: ease-in-out;
+animation-duration: 300ms;
+}
+
+
+.sidebar .promo {
+  width: 137;
+height: 69;
+opacity: 1;
+top: 671px;
+left: 44px;
+font: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0%;
+align-items: center;
+color: grey;
+
+}
+
+.promo-icon {
+width: 35;
+height: 35;
+opacity: 1;
+top: 50px;
+left: 50px;
+border-end-start-radius: 8px;
+background: #3DD2CC66;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+margin-left: 30px;
+
+
+
+}
+.sidebar .promo button {
+  margin-top: 10px;
+  background: #3DD2CC66;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 78;
+height: 18;
+opacity: 1;
+top: 799px;
+left: 74px;
+font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #3DD2CC;
+text-align: center;
+}
+
+.Home {
+  width: 21;  
+height: 29;
+opacity: 1;
+color:#3DD2CC;
+font-size: 15px;
+font-family: Poppins;
+font-style: SemiBold;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+align-items: center;
+cursor: pointer;
+}
+
+
+.Movies {
+  width: 21;  
+height: 29;
+opacity: 1;
+color: grey;
+font-size: 15px;
+font-family: Poppins;
+font-style: SemiBold;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.TV-Series {
+  width: 21;
+  height: 29;
+  opacity: 1;
+  color: grey;
+  font-size: 15px;
+  font-family: Poppins;
+font-style: SemiBold;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.Upcoming {
+  width: 106;
+height: 29.999998092651367;
+opacity: 1;
+top: 521px;
+left: 82px;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: grey;
+
+}
+
+.Logout {
+ width: 114;
+height: 30;
+opacity: 1;
+top: 883px;
+left: 42px;
+color: grey;
+}
+
+
